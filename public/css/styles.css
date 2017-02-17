@@ -266,6 +266,11 @@ input[type=text] {
   text-align: center;
 }
 
+.notice {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 @media (min-width: 56em) {
   select {
     font-size: 1rem;
