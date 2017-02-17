@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+
+  <body>
+
+    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
+         content to avoid any CSS collisions with our real content. -->
+    <div class="wrap">
+      <div class="masthead">
+        <div class="container">
+          <div class="masthead-title">
+            <a href="/">
+              <h1 class="title-text">Catskull Electronics</h1>
+            </a>
+          </div>
+          <span class="cart-button noselect" onclick="submitForm()">View Cart<span>
+        </div>
+      </div>
+
+      <div class="container content post">
+        <h3>Check out the new <a href="https://www.facebook.com/catskullelectronics" target="_blank">Catskull Electronics Facebook page</a> for news, product sneak peaks, and other cool stuff!</h3>
+      </div>
+
+      <div class="container content post">
+        {{ content }}
+      </div>
+      
+      <div class="container content post footer">
+        <h2><a href="/faq">FAQ</a></h2>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/catskullelectronics">
+            <img src="/public/facebook.png" target="_blank" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/xxcatskullxx/">
+            <img src="/public/instagram.png" target="_blank" alt="Instagram">
+          </a>
+          <a href="https://twitter.com/xxcatskullxx">
+            <img src="/public/twitter.png" target="_blank" alt="Facebook">
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <script type="text/javascript">
+      function submitForm() {
+        document.getElementById("viewCart").submit();
+      }
+      
+      function addToCart() {
+        document.getElementById("paypal").submit();
+      }
+
+
+      number = Math.floor((Math.random() * 8) + 1);
+      urlString = "url('/public/patterns/" + number + ".png')"
+      document.body.style.backgroundImage = urlString;
+      switch (number) {
+        case 1:
+          document.body.style.backgroundColor = "#EBDBFF";
+          break;
+        case 2:
+          document.body.style.backgroundColor = "#D0F9D8";
+          break;
+        case 3:
+          document.body.style.backgroundColor = "#FBFDC0";
+          break;
+        case 4:
+          document.body.style.backgroundColor = "#FCE1C7";
+          break;
+        case 5:
+          document.body.style.backgroundColor = "#B4D4F9";
+          break;
+        case 6:
+          document.body.style.backgroundColor = "#F9B8C4";
+          break;
+        case 7:
+          document.body.style.backgroundColor = "#6B81FF";
+          break;
+        case 8:
+          document.body.style.backgroundColor = "#99FFE7";
+          break;
+      }
+    </script>
+    <form id="viewCart" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+      <input type="hidden" name="cmd" value="_cart">
+      <input type="hidden" name="business" value="QJSAL93VF3AGE">
+      <input type="hidden" name="display" value="1">
+    </form>
+  </body>
+</html>

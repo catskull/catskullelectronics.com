@@ -1,0 +1,25 @@
+# Dependencies
+markdown:            kramdown
+highlighter:         rouge
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           /:title.html
+# relative_permalinks: true
+
+# Setup
+title:               catskullelectronics.com
+tagline:             'A chip shop'
+description:         'A chip shop where you can buy LSDJ arduinoboy mGB chipmusic'
+url:                 http://catskullelectronics.com
+baseurl:             /
+
+# About/contact
+author:
+  name:              David DeGraw
+  url:               https://twitter.com/davidwdegraw
+  email:             bro@catskull.net
+
+# Custom vars
+version:             1.0.0
