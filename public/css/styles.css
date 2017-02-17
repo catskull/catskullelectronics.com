@@ -266,6 +266,18 @@ input[type=text] {
   text-align: center;
 }
 
+.main p {
+  text-align: left;
+}
+
+.main h2 {
+  text-align: left;
+}
+
+.main h3{
+  text-align: left;
+}
+
 .notice {
   margin-top: 10px;
   margin-bottom: 10px;
