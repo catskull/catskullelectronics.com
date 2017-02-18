@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gameboy Cartridge Shell
-description: The shop page where I sell Gameboy Cartridge Shells
+description: Buy replacement original Gameboy cartridge shells for Nintendo DMG games
 ---
 # Gameboy Cartridge Shell
 

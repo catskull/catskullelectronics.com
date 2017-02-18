@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 32k Gameboy Flash Cart
-description: The shop page where I sell a 32k Gameboy Flash cart
+description: A super cheap Gameboy Color Advance flash cart for only 10 dollars
 ---
 # 32k Gameboy Flash Cart
 

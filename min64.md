@@ -1,7 +1,7 @@
 ---
 layout: default
 title: min64
-description: The shop page where I sell a Commodore 64 cartridge
+description: A tiny flash cartridge for the Commodore 64 C64 retro computer for use with cynthcart and other software
 ---
 # min64
 

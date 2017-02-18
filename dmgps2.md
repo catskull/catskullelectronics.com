@@ -1,7 +1,7 @@
 ---
 layout: default
 title: DMG PS/2 Keyboard Adapter
-description: The shop page where I sell a PS/2 keyboard adapter for Nintendo Gameboy DMG
+description: A PS/2 keyboard adapter for Nintendo Gameboy DMG and LSDJ sync
 ---
 # DMG PS/2 Keyboard Adapter
 
