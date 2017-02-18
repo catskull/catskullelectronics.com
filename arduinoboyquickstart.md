@@ -7,7 +7,6 @@ description: The shop page where I sell an Arduinoboy intended for use with the 
 
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/images/aboyquickstart/1.png" alt="Arduinoboy Quickstart Bundle" id="gallery_image">
-	<p id="gallery_subtitle">Arduinoboy Quickstart Bundle</p>
 </div>
 
 ## $50
