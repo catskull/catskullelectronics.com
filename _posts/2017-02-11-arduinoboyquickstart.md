@@ -2,7 +2,7 @@
 layout: default
 title: Arduinoboy Quickstart Bundle
 description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
-price: 50
+price: <s>50.00</s> $45.0
 image: /public/images/aboyquickstart/1.png
 pos: 4
 ---
@@ -12,7 +12,8 @@ pos: 4
 	<img src="{{ site.baseurl }}public/images/aboyquickstart/1.png" alt="Arduinoboy Quickstart Bundle" id="gallery_image">
 </div>
 
-## $50
+<!--## $50-->
+<h2><s>$50</s> $45.00</h2>
 
 <div class="addToCart noselect" onclick="addToCart()">
   Add to cart

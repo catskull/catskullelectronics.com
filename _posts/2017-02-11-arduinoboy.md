@@ -2,7 +2,7 @@
 layout: default
 title: Arduinoboy
 description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
-price: 16
+price: <s>16.00</s> $14.4
 image: /public/gallery/1.jpg
 pos: 1
 ---
