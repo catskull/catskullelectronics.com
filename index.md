@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Shop
 description: Where you can find DIY Gameboy Chipmusic kits and accessories
 ---
 

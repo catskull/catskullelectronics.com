@@ -13,7 +13,11 @@
   <meta name="theme-color" content="#000000">
 
   <title>
-    {{ page.title }} &middot; {{ site.title }}
+    {% if page.title %}
+      {{ page.title }} &middot;
+    {% endif %}
+    {{ site.title }}
+      
   </title>
 
   <!-- CSS -->
