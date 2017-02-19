@@ -2,6 +2,9 @@
 layout: default
 title: Arduinoboy
 description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
+price: 16
+image: /public/gallery/1.jpg
+pos: 1
 ---
 # Arduinoboy Shield
 

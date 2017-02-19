@@ -150,7 +150,7 @@ input[type=text] {
     position: relative;
 }
 
-.product-callout .after {
+.tile .after {
     position: absolute;
     top: 0;
     left: 7.5px;
@@ -162,7 +162,7 @@ input[type=text] {
     border-color: #515151;
 }
 
-.product-callout .after p {
+.tile .after p {
     color: #515151;
     padding-left: 8px;
     padding-right: 8px;
@@ -268,24 +268,12 @@ input[type=text] {
 /*  padding: 3px;*/
 /*}*/
 
-.main {
+.main h1 {
   text-align: center;
 }
 
-.main p {
-  text-align: left;
-}
-
-.main h2 {
-  text-align: left;
-}
-
-.main h3{
-  text-align: left;
-}
-
-.main li {
-  text-align: left;
+.tiles {
+  text-align: center;
 }
 
 .notice {
