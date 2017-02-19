@@ -19,7 +19,7 @@ A tracking number will be provided by PayPal when I ship your package. Please ma
 
 ### The tracking on USPS.com is wrong/not updated/etc!
 
-USPS tracking has a reputation for being kind of bad. In my experience, it's actually okay most of the time. If your order is going international, the tracking will not update once it reaches the border of your country.
+USPS tracking has a reputation for being kind of bad. In my experience, it's actually okay most of the time. Most of the time you just need to give it about 24 hours to update. Beyond that, there's nothing I can do. If your order is going international, the tracking will not update once it reaches the border of your country.
 
 ### How long will it take to get my order?
 
