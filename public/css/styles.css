@@ -172,7 +172,7 @@ input[type=text] {
 .tile .price {
     position: absolute;
     right: 7.5px;
-    bottom: 52px;
+    bottom: 42px;
     text-align: left;
     background-color: #FCF200;
     border-radius: 7px 0 0 0;
@@ -298,5 +298,9 @@ input[type=text] {
   .title-text {
     font-size: 3rem;
   }
+  
+  .tile .price {
+    bottom: 52px;
+}
 
 }
