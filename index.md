@@ -16,7 +16,7 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
       		</div>
       	{% endif %}
     		<div class="price">
-    		  <p>${{ post.price }}0</p>
+    		  <p>${{ post.price }}.00</p>
     		</div>
     	</a>
   	</div>
