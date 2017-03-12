@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arduinoboy
-description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
+description: Buy a Gameboy Arduinoboy kit for LSDJ starting at $16
 price: 16
 image: /public/gallery/1.jpg
 pos: 1

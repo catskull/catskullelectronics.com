@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arduinoboy Quickstart Bundle
-description: The shop page where I sell an Arduinoboy intended for use with the Nintendo Gameboy and MIDI
+description: An assembled Gameboy arduinoboy MIDI interface fo chiptune.
 price: 50
 image: /public/images/aboyquickstart/1.png
 pos: 4

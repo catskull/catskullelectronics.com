@@ -8,7 +8,7 @@ description: Where you can find DIY Gameboy Chipmusic kits and accessories
   {% for post in sorted_posts %}
     <div class="tile">
     	<a href="{{ post.url }}">
-    		<img src="{{ post.image }}"/>
+    		<img src="{{ post.image }}" alt="{{ post.description }}"/>
     		<p>{{ post.title }}</p>
   	  	{% if post.new %}
   	  		<div class="after">
