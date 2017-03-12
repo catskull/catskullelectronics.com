@@ -24,8 +24,8 @@ pos: 4
 
 This is a bundle designed to help beginners get off the ground. It includes:
 
- - An assembled [Arduinoboy](http://shop.catskull.net/arduinoboy) with an Arduino pre flashed, ready to go
- - A [32k Cartridge](http://shop.catskull.net/32kcart) with mGB flashed
+ - An assembled [Arduinoboy](http://catskullelectronics.com/arduinoboy) with an Arduino pre flashed, ready to go
+ - A [32k Cartridge](http://catskullelectronics.com/32kcart) with mGB flashed
  - A GBC style link cable
 
  All you need is a MIDI keyboard and you're ready to rock!
