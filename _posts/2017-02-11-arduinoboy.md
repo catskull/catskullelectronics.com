@@ -21,7 +21,7 @@ pos: 1
 <table>
 <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="X4H2EPR2AN5Q4">
+<input type="hidden" name="hosted_button_id" value="WBS4S4LX4WLSW">
 <table class="checkout-table">
 <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
 	<option value="Kit Only">Kit Only $16.00 USD</option>
@@ -31,7 +31,7 @@ pos: 1
 	<option value="Assembled Kit">Assembled Kit $29.00 USD</option>
 	<option value="Assembled Kit (w/ PS2 jack)">Assembled Kit (w/ PS2 jack) $31.00 USD</option>
 	<option value="Assembled Kit + Arduino">Assembled Kit + Arduino $35.00 USD</option>
-	<option value="Assembled Kit (w/ PS2 jack) + Arduino">Assembled Kit (w/ PS2 jack) + Arduino $36.00 USD</option>
+	<option selected="selected" value="Assembled Kit (w/ PS2 jack) + Arduino">Assembled Kit (w/ PS2 jack) + Arduino $36.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">

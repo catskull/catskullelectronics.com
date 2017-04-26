@@ -24,7 +24,7 @@ new: true
 <table>
   <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
   <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="MXU273TFGL4QW">
+  <input type="hidden" name="hosted_button_id" value="XX7SM3UNHZD2W">
   </form>
 </table>
 
