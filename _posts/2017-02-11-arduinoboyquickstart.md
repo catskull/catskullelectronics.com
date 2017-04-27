@@ -4,7 +4,7 @@ title: Arduinoboy Quickstart Bundle
 description: An assembled Gameboy arduinoboy MIDI interface fo chiptune.
 price: 50
 image: /public/images/aboyquickstart/1.png
-pos: 4
+pos: 5
 ---
 # Arduinoboy Quickstart Bundle
 
