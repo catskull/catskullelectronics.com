@@ -7,7 +7,6 @@ image: /public/images/teensyboy/1.jpg
 pos: 1
 new: true
 featured: true
-hidden: true
 ---
 # Teensyboy
 
