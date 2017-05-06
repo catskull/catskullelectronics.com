@@ -4,7 +4,20 @@
   {% include head.html %}
 
 
-  <body>
+  <body onload="populateShoppingCart()">
+
+    <div id="modal">
+      <div id="close-shopping-cart-button">
+        <h1 onclick="closeModal()" class="noselect">X</h1>
+      </div>
+      <div class="container">
+        <div class="shopping-cart">
+          <h1>Shopping Cart</h1>
+          <div id="shopping-cart-list">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
@@ -46,14 +59,102 @@
     </div>
 
     <script type="text/javascript">
+      function closeModal() {
+        document.getElementById("modal").style.display = "none";
+      }
+
       function submitForm() {
-        document.getElementById("viewCart").submit();
+        // document.getElementById("viewCart").submit();
+        populateShoppingCart();
+        document.getElementById("modal").style.display = "block";
       }
 
-      function addToCart() {
-        document.getElementById("paypal").submit();
+      function addToCart(item, price, image, shipping, isSelect) {
+        // document.getElementById("paypal").submit();
+        if (localStorage.getItem('cart-contents')) {
+          var shoppingCart = JSON.parse(localStorage.getItem('cart-contents'));
+        } else {
+          var shoppingCart = [];
+        }
+
+        if (isSelect) {
+          price = document.getElementById(item).value.split('¶')[1];
+          item = document.getElementById(item).value.split('¶')[0];
+        }
+
+        if (_.find(shoppingCart, {item: item})) {
+          _.find(shoppingCart, {item: item}).quantity += 1;
+        } else {
+          shoppingCart.push({item: item, price: price, image: image, quantity: 1, shipping: shipping});
+        }
+
+        localStorage.setItem("cart-contents", JSON.stringify(shoppingCart));
+
+        submitForm();
       }
 
+      function changeQuantity (item, quantity) {
+        var cart = JSON.parse(localStorage.getItem('cart-contents'));
+
+        _.find(cart, {item: item}).quantity = quantity;
+
+        localStorage.setItem("cart-contents", JSON.stringify(cart));
+      }
+
+      function populateShoppingCart() {
+        var parent = document.getElementById('shopping-cart-list');
+        while (parent.firstChild) {
+            parent.removeChild(parent.firstChild);
+        }
+
+        _.forEach(JSON.parse(localStorage.getItem('cart-contents')), function(item) {
+          var element = document.createElement("div");
+          element.style.overflow = "hidden";
+
+          var image = document.createElement("img");
+          image.src = item.image;
+          image.style.width = "9rem";
+          image.style.marginRight = "15px";
+          image.style.float = "left";
+          element.appendChild(image);
+
+          var title = document.createElement("h3");
+          title.appendChild(document.createTextNode(item.item));
+          element.appendChild(title);
+
+          var row = document.createElement("div");
+          row.className = "shopping-cart-subheader";
+
+          var price = document.createElement("p");
+          price.appendChild(document.createTextNode("$" + (item.price * item.quantity) + ".00"));
+          row.appendChild(price);
+
+          var quantityText = document.createElement("p");
+          quantityText.appendChild(document.createTextNode("Quantity:"));
+          quantityText.style.paddingRight = "1px";
+          row.appendChild(quantityText);
+
+          var quantity = document.createElement("input");
+          quantity.type = "number";
+          quantity.style.fontSize = "1rem";
+          quantity.style.marginRight = "20px";
+          quantity.value = item.quantity
+          quantity.min = "1"
+          quantity.oninput = function() {
+                                changeQuantity(item.item, quantity.value);
+                                price.innerHTML = ("$" + (item.price * quantity.value) + ".00");
+                                shipping.innerHTML = ("Shipping: $" + (item.shipping * quantity.value) + ".00");
+                              };
+          row.appendChild(quantity);
+
+          var shipping = document.createElement("p");
+          shipping.appendChild(document.createTextNode("Shipping: $" + (item.shipping * item.quantity) + ".00"));
+          row.appendChild(shipping);
+
+          element.appendChild(row);
+          parent.appendChild(element);
+        });
+      }
 
       number = Math.floor((Math.random() * 8) + 1);
       urlString = "url('/public/patterns/" + number + ".png')"
@@ -90,5 +191,6 @@
       <input type="hidden" name="business" value="VVCPF3W8VNKHS">
       <input type="hidden" name="display" value="1">
     </form>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.core.min.js"></script>
   </body>
 </html>

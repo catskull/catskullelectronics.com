@@ -29,16 +29,16 @@ featured: true
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="UXX2MLFL25J74">
 <table>
-<tr><td><input type="hidden" name="on0" value="Option">Options</td></tr><tr><td><select name="os0">
-	<option value="Teensyboy only">Teensyboy Only $33.00 USD</option>
-	<option selected="selected" value="Teensyboy Quickstart Bundle">Teensyboy Quickstart Bundle $47.00 USD</option>
+<tr><td><input type="hidden" name="on0" value="Option">Options</td></tr><tr><td><select name="os0" id="item-select">
+	<option value="Teensyboy only¶33">Teensyboy Only $33.00 USD</option>
+	<option selected="selected" value="Teensyboy Quickstart Bundle¶47">Teensyboy Quickstart Bundle $47.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
 </form>
 </table>
 
-<div class="addToCart noselect" onclick="addToCart()">
+<div class="addToCart noselect" onclick="addToCart('item-select', 33, 'public/images/teensyboy/1.jpg', 4, true)">
   Add to cart
 </div>
 
