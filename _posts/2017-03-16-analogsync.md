@@ -5,7 +5,6 @@ description: An analog sync adapter for LSDJ and Nanoloop on the Nintendo Gamebo
 price: 8
 image: /public/images/analog/1.jpg
 pos: 4
-new: true
 ---
 # Analog Sync Adapter
 

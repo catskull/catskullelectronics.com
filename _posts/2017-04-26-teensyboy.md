@@ -6,13 +6,9 @@ price: 33
 image: /public/images/teensyboy/1.jpg
 pos: 1
 new: true
-featured: true
+featured: false
 ---
 # Teensyboy
-
-<!-- <div class="gallery">
-	<img src="/public/images/mbc5/1.jpg" alt="MBC5 compatible Gameboy flash cart">
-</div> -->
 
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/images/teensyboy/1.jpg" alt="Teensyboy Top" id="gallery_image" onclick="cycle(1); return false;">
