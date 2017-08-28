@@ -86,14 +86,28 @@ p {
   text-align: center;
 }
 
-.cart-button {
-  float: right;
+.button {
+  float: left;
+  margin-right: 5px;
   margin-top: -0.1rem;
   background-color: #FCF200;
   border-style: solid;
   padding: 4px;
   border-radius: 0.1rem;
   cursor: pointer;
+}
+
+.button:hover {
+  background-color: #fffaf0;
+}
+
+.button-active {
+  background-color: #fffaf0;
+}
+
+.cart-button {
+  float: right;
+  margin-right: 0;
 }
 
 .countdown {
