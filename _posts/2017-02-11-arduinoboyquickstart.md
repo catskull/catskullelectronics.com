@@ -20,7 +20,7 @@ pos: 5
 
 ## Details:
 
-**International buyers: [contact me](mailto:bro@catskull.net) before purchasing.**
+Shipping is flat rate $6 in the US. International shipping should be around $12. I’ll send a PayPal request after you order for the extra cost. [Contact me](mailto:bro@catskull.net) if you have any questions!
 
 This is a bundle designed to help beginners get off the ground. It includes:
 
