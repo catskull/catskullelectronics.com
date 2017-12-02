@@ -1,5 +1,5 @@
 var i = 1;
-var baseurl = "/public/32kcart/"
+var baseurl = "/public/images/32kcart/"
 
 function cycle(direction) {
     image = document.getElementById('gallery_image');
