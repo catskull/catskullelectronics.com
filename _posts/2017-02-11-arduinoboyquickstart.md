@@ -20,7 +20,7 @@ pos: 5
 
 ## Details:
 
-Shipping is flat rate $6 in the US. International shipping should be around $12. I’ll send a PayPal request after you order for the extra cost. [Contact me](mailto:bro@catskull.net) if you have any questions!
+Shipping is flat rate $6 in the US. International shipping is flat rate $12.
 
 This is a bundle designed to help beginners get off the ground. It includes:
 

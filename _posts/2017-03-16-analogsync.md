@@ -35,7 +35,7 @@ pos: 4
 
 Units ship within **5** business days.
 
-Shipping is flat rate $3 in the US. International shipping should be around $8. I’ll send a PayPal request after you order for the extra cost. [Contact me](mailto:bro@catskull.net) if you have any questions!
+Shipping is flat rate $4 in the US. International is flate rate $8.
 
 This is a simple little analog (CV) sync adapter for use with LSDJ and Nanoloop on a Nintendo Gameboy. The 3.5mm jack can be used as either an input or an output, selectable with the on board switch.
 

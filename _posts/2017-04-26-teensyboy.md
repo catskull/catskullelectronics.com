@@ -40,7 +40,7 @@ pos: 1
 
 Units ship within **10** business days.
 
-Shipping is flat rate $4 in the US. International shipping should be around $8. I’ll send a PayPal request after you order for the extra cost. [Contact me](mailto:bro@catskull.net) if you have any questions!
+Shipping is flat rate $4 in the US. International shipping is flat rate $8.
 
 The Teensyboy Quickstart Bundle includes the Teensyboy, a [32k Gameboy Cartridge](/32kcart) with mGB flashed on it, and a GBC style link cable.
 
