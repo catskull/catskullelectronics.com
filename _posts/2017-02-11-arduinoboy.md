@@ -52,7 +52,7 @@ Unassembled kits ship within **5** business days.
 
 Assembled kits ship within **10** business days.
 
-Shipping is flat rate $5 in the US. International shipping is flat rate $10.
+Shipping is flat rate $5 in the US. International shipping is flat rate $15.
 
 It is important to understand that you're buying a kit. That means it's a PCB with unsoldered components. For assembly,  you'll need a soldering iron and decent soldering skills. All the components are through-hole, so it should be easy enough for beginners. That said, I take no responsibility for any damage you cause to your kit during assembly. **There is strictly no warranty whatsoever included with the kit. No returns or refunds will be accepted.**
 

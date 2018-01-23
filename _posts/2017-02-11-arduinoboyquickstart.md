@@ -20,7 +20,7 @@ pos: 5
 
 ## Details:
 
-Shipping is flat rate $6 in the US. International shipping is flat rate $12.
+Shipping is flat rate $6 in the US. International shipping is flat rate $24.
 
 This is a bundle designed to help beginners get off the ground. It includes:
 
