@@ -13,7 +13,7 @@ featured: true
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/images/teensyboy_pro/1.JPG" alt="Teensyboy Pro" id="gallery_image" onclick="cycle(1); return false;">
 	<p id="gallery_subtitle">Teensyboy Pro</p>
-	<p id="gallery_pos_text">1/5</p>
+	<p id="gallery_pos_text">1/3</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
 		<p id="gallery_nav_right" onclick="cycle(1); return false;">→</p>
