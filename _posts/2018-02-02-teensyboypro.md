@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teensyboy Pro
-description: A MIDI synth interface for the Gameboy Advance
+description: A USB MIDI teensy microcontroller arduinoboy for use with the Nintendo Gameboy to make chiptunes and sync with LSDJ and Nanoloop
 price: 45
 image: /public/images/teensyboy_pro/1.jpg
 pos: 0.7
