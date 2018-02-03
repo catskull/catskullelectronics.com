@@ -46,6 +46,46 @@ The Teensyboy Quickstart Bundle includes the Teensyboy, a [32k Gameboy Cartridge
 
 The Teensyboy is identical to an [Arduinoboy](/arduinoboy), but instead of DIN MIDI connectors, it uses USB MIDI. Put simply it's a USB MIDI adapter for your Nintendo Gameboy. When plugged into a computer with a micro-USB cable (not included), it will populate as a MIDI input/output device for use with your favorite DAW! It offers all the same functionality as an Arduinoboy.
 
+Here's a table showing the different models:
+
+<table style="min-width:100%;">
+	<tr>
+		<th>Variant</th>
+		<th>Price</th>
+		<th>USB MIDI</th>
+		<th>DIN MIDI</th>
+		<th>Notes</th>
+	</tr>
+	<tr>
+		<td><a href="https://catskullelectronics.com/arduinoboy">Arduinoboy</a></td>
+		<td>$16-$22 (kit)</td>
+		<td>✕</td>
+		<td>✔</td>
+		<td>DIY kit only.</td>
+	</tr>
+	<tr>
+		<td>Arduinoboy Lite</td>
+		<td>~$20 (TBD)</td>
+		<td>✕</td>
+		<td>✔ (out only)</td>
+		<td>Uses special fork of Arduinoboy code the improves midi out, but only does midi out.</td>
+	</tr>
+	<tr>
+		<td><a href="https://catskullelectronics.com/teensyboy">Teensyboy</a></td>
+		<td>$33</td>
+		<td>✔</td>
+		<td>✕</td>
+		<td>It's tiny! About the size as a thumb drive.</td>
+	</tr>
+	<tr>
+		<td><a href="https://catskullelectronics.com/teensyboypro">Teensyboy Pro</a></td>
+		<td>$45</td>
+		<td>✔</td>
+		<td>✔</td>
+		<td>Functionaly identical to Arduinoboy, but smaller. Mounting holes for installing into a case.</td>
+	</tr>
+</table>
+
 It includes a Gameboy Color/Pocket style link connector. It is compatible with the classic DMG by using a dual ended link cable. <a href="http://www.ebay.com/itm/400690419424" target="_blank">This one</a> has been tested and works perfectly.
 
 This Teensyboy is wrapped in clear heat shrink tubing for protection and durability.
