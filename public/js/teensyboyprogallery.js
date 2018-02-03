@@ -25,19 +25,19 @@ function cycle(direction) {
 
     switch (i) {
       case 1:
-        image.src = baseurl + '1.jpg';
+        image.src = baseurl + '1.JPG';
         image.alt = "Teensyboy Pro";
         text.innerHTML = "1/3";
         break;
 
       case 2:
-        image.src = baseurl + '2.jpg';
+        image.src = baseurl + '2.JPG';
         image.alt = "Teensyboy Pro"
         text.innerHTML = "2/3";
         break;
 
       case 3:
-        image.src = baseurl + '3.jpg';
+        image.src = baseurl + '3.JPG';
         image.alt = "Teensyboy Pro Quickstart Bundle";
         text.innerHTML = "3/3";
         break;
