@@ -8,7 +8,7 @@ pos: 0.7
 new: true
 featured: true
 ---
-# Teensboy Pro
+# Teensyboy Pro
 
 <div class="gallery">
 	<img src="{{ site.baseurl }}public/images/teensyboy_pro/1.JPG" alt="Teensyboy Pro" id="gallery_image" onclick="cycle(1); return false;">
@@ -43,6 +43,8 @@ featured: true
 Units ship within **10** business days.
 
 Shipping is flat rate $5 in the US. International shipping is flat rate $15.
+
+### This board revision has a small problem: the arrows indicating MIDI in and out are reversed!
 
 Teensyboy Pro is a MIDI interface for the Nintendo Gameboy. It features a variety of modes to accommodate LSDJ, Nanoloop, and mGB. The Teensyboy Pro is intended to replace my Arduinoboy. It is functionally compatible with Arduinoboy, but has USB MIDI in addition to traditional DIN MIDI. For more information, see the Arduinoboy [readme](https://github.com/trash80/Arduinoboy/blob/master/README.md). For power and connectivity, you'll need a standard micro USB cable (not included).
 
