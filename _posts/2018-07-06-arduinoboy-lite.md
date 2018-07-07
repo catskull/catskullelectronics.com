@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Teensyboy Pro
+title: Arduinoboy Lite
 description: A USB MIDI teensy microcontroller arduinoboy for use with the Nintendo Gameboy to make chiptunes and sync with LSDJ and Nanoloop
-price: 45
-image: /public/images/teensyboy_pro/1.JPG
-pos: 0.7
-new: false
+price: 25
+image: /public/images/aboy_lite/2.JPG
+pos: 0.6
+new: true
 featured: false
 ---
-# Teensyboy Pro
+# Arduinoboy Lite
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/images/teensyboy_pro/1.JPG" alt="Teensyboy Pro" id="gallery_image" onclick="cycle(1); return false;">
-	<p id="gallery_subtitle">Teensyboy Pro</p>
+	<img src="{{ site.baseurl }}public/images/aboy_lite/1.JPG" alt="Arduinoboy Lite" id="gallery_image" onclick="cycle(1); return false;">
+	<p id="gallery_subtitle">Arduinoboy Lite</p>
 	<p id="gallery_pos_text">1/3</p>
 	<div id="gallery_nav">
 		<p id="gallery_nav_left" onclick="cycle(0); return false;">←</p>
@@ -20,17 +20,11 @@ featured: false
 	</div>
 </div>
 
-## $45.00
+## $25.00
 
 <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="DK48KPA9RQA9W">
-<table>
-<tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-	<option value="Teensyboy Pro only">Teensyboy Pro only $45.00 USD</option>
-	<option selected="selected" value="Teensyboy Pro Quickstart Bundle">Teensyboy Pro Quickstart Bundle $60.00 USD</option>
-</select> </td></tr>
-</table>
+<input type="hidden" name="hosted_button_id" value="9HVUU2S9CNU9A">
 <input type="hidden" name="currency_code" value="USD">
 </form>
 
@@ -44,9 +38,13 @@ Units ship within **10** business days.
 
 Shipping is flat rate $5 in the US. International shipping is flat rate $15.
 
-Teensyboy Pro is a MIDI interface for the Nintendo Gameboy. It features a variety of modes to accommodate LSDJ, Nanoloop, and mGB. The Teensyboy Pro is intended to replace my Arduinoboy. It is functionally compatible with Arduinoboy, but has USB MIDI in addition to traditional DIN MIDI. For more information, see the Arduinoboy [readme](https://github.com/trash80/Arduinoboy/blob/master/README.md). For power and connectivity, you'll need a standard micro USB cable (not included).
+Arduinoboy Lite is a special fork of the arduinoboy project. It is designed to improve LSDJ's MIDI out mode in reliability and add features such as MIDI clock and on-the-fly channel switching.
 
-The Quickstart bundle includes a cartridge with mGB and a dual classic brick Gameboy (DMG) and Gameboy Pocket/Color/Advance link cable. It contains everything you need to rock out with your Gameboy!
+For a full list of differences, <a href="https://github.com/ledfyr/ab-midiout-lite">view the readme</a>.
+
+Like all of my arduinoboy offerings, Arduinoboy Lite is fully compatible with all Gameboy models except the micro. If a Gameboy Pocket/Color link cable is used, power is supplied via link cable. If a classic Gameboy (DMG) is used, a micro-usb connector should be used to supply power. Do not use the micro-usb connection if connected to a Pocket, Color, or Advance!
+
+To use this product you need a copy of LSDJ and a flash cartridge capable of running it. This product is shipped fully assembled and tested.
 
 Here is a table that explains the difference between various Arduinoboy models:
 
@@ -88,10 +86,10 @@ Here is a table that explains the difference between various Arduinoboy models:
 	</tr>
 </table>
 
-Credits to trash80 for design and coding.
+Credits to trash80 for original Arduinoboy design and coding, and ledfyr for the aboy-midiout-lite software.
 
 I will ship to the address entered on the PayPal checkout page, so please double check to make sure it’s correct.
 
 By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
 
-<script src="{{ site.baseurl }}public/js/teensyboyprogallery.js"></script>
+<script src="{{ site.baseurl }}public/js/aboylitegallery.js"></script>

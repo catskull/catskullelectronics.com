@@ -68,8 +68,8 @@ The Arduinoboy kit has been replaced by the Teensyboy Pro. It's better in every 
 		<td>DIY kit only.</td>
 	</tr>
 	<tr>
-		<td>Arduinoboy Lite</td>
-		<td>~$20 (TBD)</td>
+		<td><a href="https://catskullelectronics.com/arduinoboy-lite">Arduinoboy Lite</a></td>
+		<td>$25</td>
 		<td>✕</td>
 		<td>✔ (out only)</td>
 		<td>Uses special fork of Arduinoboy code the improves midi out, but only does midi out.</td>
