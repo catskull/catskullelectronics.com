@@ -5,7 +5,7 @@ description: A USB MIDI teensy microcontroller arduinoboy for use with the Ninte
 price: 25
 image: /public/images/aboy_lite/2.JPG
 pos: 0.6
-new: true
+new: false
 featured: false
 ---
 # Arduinoboy Lite
