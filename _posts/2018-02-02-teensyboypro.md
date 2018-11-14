@@ -46,7 +46,7 @@ Shipping is flat rate $5 in the US. International shipping is flat rate $15.
 
 Teensyboy Pro is a MIDI interface for the Nintendo Gameboy. It features a variety of modes to accommodate LSDJ, Nanoloop, and mGB. The Teensyboy Pro is intended to replace my Arduinoboy. It is functionally compatible with Arduinoboy, but has USB MIDI in addition to traditional DIN MIDI. For more information, see the Arduinoboy [readme](https://github.com/trash80/Arduinoboy/blob/master/README.md). For power and connectivity, you'll need a standard micro USB cable (not included).
 
-The Quickstart bundle includes a cartridge with mGB and a ~dual link cable for a Gameboy Classic/Pocket/Color/Advance~ *Due to supplier issues, quickstart bundles will include a single ended link cable that will only work with Gameboy Pocket, Color, and Advance. I am working witht he supplier and hope to have dual ended link cables available again at some point.~ It contains everything you need to rock out with your Gameboy!
+The Quickstart bundle includes a cartridge with mGB and a ~~dual link cable for a Gameboy Classic/Pocket/Color/Advance~~ **Due to supplier issues, quickstart bundles will include a single ended link cable that will only work with Gameboy Pocket, Color, and Advance. I am working with the supplier and hope to have dual ended link cables available again at some point.** It contains everything you need to rock out with your Gameboy!
 
 Here is a table that explains the difference between various Arduinoboy models:
 
