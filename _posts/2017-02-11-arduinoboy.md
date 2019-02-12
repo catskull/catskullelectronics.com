@@ -26,8 +26,6 @@ pos: 2
 <tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
 	<option value="Kit Only">Kit Only $16.00 USD</option>
 	<option value="Kit Only (w/ PS2 jack)">Kit Only (w/ PS2 jack) $17.00 USD</option>
-	<option value="Kit + Arduino">Kit + Arduino $21.00 USD</option>
-	<option value="Kit (w/ PS2 jack) + Arduino">Kit (w/ PS2 jack) + Arduino $22.00 USD</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="USD">
@@ -39,6 +37,8 @@ pos: 2
 </div>
 
 ## This arduinoboy kit has been replaced by the [Teensyboy Pro](https://catskullelectronics.com/teensyboypro). I am no longer offering assembled kits. These are still for sale, but I can't offer any support.
+
+## As of Feb. 11, 2019, I am no longer offering pre-flashed Arduino UNOs. You can buy them just as cheap as I can!
 
 ### PS/2 Mode is now integrated into the regular LSDJ keyboard mode. Because of this, the mode button has moved to another pin. I've also eliminated one resistor, so assembly should be easier than ever! You can download the code [here](https://github.com/catskull/Arduinoboy/archive/master.zip).
 
