@@ -26,25 +26,25 @@ function cycle(direction) {
     switch (i) {
       case 1:
         image.src = baseurl + '1.jpg';
-        image.alt = "Interface, Cartridge, and Cable";
+        image.alt = "Connects directly to controller port";
         text.innerHTML = "1/4";
         break;
 
       case 2:
         image.src = baseurl + '2.jpg';
-        image.alt = "Powered via controller port"
+        image.alt = "Interface, cartridge, and MIDI TRS adapter"
         text.innerHTML = "2/4";
         break;
 
       case 3:
         image.src = baseurl + '3.jpg';
-        image.alt = "USB + DIN MIDI";
+        image.alt = "Cool art";
         text.innerHTML = "3/4";
         break;
 
       case 4:
         image.src = baseurl + '4.jpg';
-        image.alt = "High quality shell and label";
+        image.alt = "Components mounted to the bottom";
         text.innerHTML = "4/4";
         break;
     }
