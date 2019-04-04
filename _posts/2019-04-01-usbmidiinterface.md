@@ -7,7 +7,7 @@ image: /public/images/usbmidiinterface/1.jpg
 pos: 0.2
 new: true
 featured: true
-hidden: true
+hidden: false
 ---
 # USB MIDI Interface
 
