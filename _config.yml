@@ -3,7 +3,7 @@ markdown:            kramdown
 highlighter:         rouge
 # host:                0.0.0.0
 plugins:
-  - jekyll-sitemap
+  # - jekyll-sitemap
 
 # Permalinks
 #

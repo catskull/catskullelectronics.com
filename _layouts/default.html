@@ -15,7 +15,7 @@
               <h1 class="title-text">Catskull Electronics</h1>
             </a>
           </div>
-          <span class="cart-button noselect" onclick="submitForm()">View Cart</span>
+          <span class="cart-button noselect" onclick="viewCart(event)">View Cart</span>
           <div style="float: left;">
             <a style="color: #515151;" href="https://catskullrecords.bandcamp.com/releases">
               <span style="margin-left: 5px;" class="cart-button noselect">
@@ -30,13 +30,6 @@
           </div>
         </div>
       </div>
-
-      <!-- <div class="container content post">
-        <h3 class="notice">
-          I'll be on vacation until Nov. 20. Go ahead and place your order, but I won't ship it until I get back!
-        </h3>
-        <div>- Dave</div>
-      </div> -->
 
       <div class="container content post">
         <h3 class="notice">Sign up for the new <a href="https://catskullelectronics.us20.list-manage.com/subscribe?u=27d714734d979c816ca60bf54&id=76d770466f" target="_blank">Catskull
@@ -66,12 +59,14 @@
     </div>
 
     <script type="text/javascript">
-      function submitForm() {
-        document.getElementById("viewCart").submit();
+      function viewCart(event) {
+        event.stopPropagation()
+        document.getElementsByClassName('shopify-buy__cart-toggle')[0].click()
       }
 
-      function addToCart() {
-        document.getElementById("paypal").submit();
+      function addToCart(event) {
+        event.stopPropagation()
+        document.getElementById('shopify-button').getElementsByTagName('button')[0].click()
       }
 
 

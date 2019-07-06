@@ -8,6 +8,7 @@ pos: 0.3
 new: true
 featured: false
 hidden: false
+product_id: 3932327215182
 ---
 # Famimimidi
 
@@ -21,23 +22,13 @@ hidden: false
 	</div>
 </div>
 
-## $200
+## ${{ page.price }}
 
-<table>
-  <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="HKPJTRWHJZRHQ">
-  <input type="hidden" name="currency_code" value="USD">
-  </form>
-</table>
-
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
 
-Shipping is flat rate $5 in the US. International shipping is flat rate $15.
+Ships within **5** business days.
 
 All the way from Tokyo, Japan comes an all-new NES MIDI interface! Designed as a modern day midines, Famimimidi lets you take full control of your NES sound hardware from the conveninece of your favorite MIDI workplace.
 
