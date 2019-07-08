@@ -5,6 +5,7 @@ description: Buy a Gameboy Arduinoboy kit for LSDJ starting at $16
 price: 16
 image: /public/images/aboy/1.jpg
 pos: 2
+product_id: 3938029011022
 ---
 # Arduinoboy Shield
 
@@ -19,22 +20,16 @@ pos: 2
 </div>
 
 <table>
-<form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="WBS4S4LX4WLSW">
-<table class="checkout-table">
-<tr><td><input type="hidden" name="on0" value="Options">Options</td></tr><tr><td><select name="os0">
-	<option value="Kit Only">Kit Only $16.00 USD</option>
-	<option value="Kit Only (w/ PS2 jack)">Kit Only (w/ PS2 jack) $17.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-</form>
+<tr><td>Options</td></tr>
+<tr><td>
+  <select id="options-selection">
+    <option value="Kit Only">Kit Only $16.00 USD</option>
+    <option value="Kit w/ PS2 jack">Kit w/ PS2 jack $17.00 USD</option>
+  </select>
+</td></tr>
 </table>
 
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## This arduinoboy kit has been replaced by the [Teensyboy Pro](https://catskullelectronics.com/teensyboypro). I am no longer offering assembled kits. These are still for sale, but I can't offer any support.
 
@@ -46,9 +41,7 @@ pos: 2
 
 ## Details:
 
-Unassembled kits ship within **5** business days.
-
-Shipping is flat rate $5 in the US. International shipping is flat rate $15.
+Ships within 5 business days.
 
 The Arduinoboy kit has been replaced by the Teensyboy Pro. It's better in every way!
 
@@ -56,12 +49,10 @@ The Arduinoboy kit has been replaced by the Teensyboy Pro. It's better in every 
 
 It is important to understand that you're buying a kit. That means it's a PCB with unsoldered components. For assembly,  you'll need a soldering iron and decent soldering skills. All the components are through-hole, so it should be easy enough for beginners. That said, I take no responsibility for any damage you cause to your kit during assembly. **There is strictly no warranty whatsoever included with the kit. No returns or refunds will be accepted.**
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct.
-
 There are known issues with Arduino Duemilanove 168 and Arduino Mega 2560. Please use an Arduino UNO with this kit.
 
 You'll need a good link cable to use this. I have tested these and they seem to be great: [http://www.ebay.com/itm/400690419424](http://www.ebay.com/itm/400690419424)
 
-By purchasing from me, you are agreeing to these terms and conditions.
+{% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/aboygallery.js"></script>
