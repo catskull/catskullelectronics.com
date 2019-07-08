@@ -5,6 +5,7 @@ description: A USB MIDI teensy microcontroller arduinoboy for use with the Ninte
 price: 33
 image: /public/images/teensyboy/1.jpg
 pos: 1
+product_id: 3938013085774
 ---
 # Teensyboy
 
@@ -21,28 +22,20 @@ pos: 1
 ## ${{ page.price }}.00
 
 <table>
-<form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="UXX2MLFL25J74">
-<table>
-<tr><td><input type="hidden" name="on0" value="Option">Options</td></tr><tr><td><select name="os0">
-	<option value="Teensyboy only">Teensyboy Only $33.00 USD</option>
-	<option selected="selected" value="Teensyboy Quickstart Bundle">Teensyboy Quickstart Bundle $47.00 USD</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="USD">
-</form>
+<tr><td>Options</td></tr>
+<tr><td>
+  <select id="options-selection">
+    <option value="Teensyboy only">Teensyboy Only $33.00 USD</option>
+    <option selected="selected" value="Teensyboy Quickstart Bundle">Teensyboy Quickstart Bundle $47.00 USD</option>
+  </select>
+</td></tr>
 </table>
 
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
 
-Units ship within **10** business days.
-
-Shipping is flat rate $4 in the US. International shipping is flat rate $15.
+{% include shipping_estimate.html %}
 
 The Teensyboy Quickstart Bundle includes the Teensyboy, a [32k Gameboy Cartridge](/32kcart) with mGB flashed on it, and a GBC style link cable.
 
@@ -56,8 +49,6 @@ This Teensyboy is wrapped in clear heat shrink tubing for protection and durabil
 
 Other Teensy based arduinoboys exist, but they use a forked version of the arduinoboy software. This is based on the latest official code release (1.3.0a) which added Teensy support. It can be easily updated for future releases as well.
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it’s correct.
-
-By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
+{% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/teensyboygallery.js"></script>
