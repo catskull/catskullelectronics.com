@@ -50,45 +50,9 @@ Unassembled kits ship within **5** business days.
 
 Shipping is flat rate $5 in the US. International shipping is flat rate $15.
 
-The Arduinoboy kit has been replaced by the Teensyboy Pro. It's better in every way! Here's a table showing the differences:
+The Arduinoboy kit has been replaced by the Teensyboy Pro. It's better in every way!
 
-<table style="min-width:100%;">
-	<tr>
-		<th>Variant</th>
-		<th>Price</th>
-		<th>USB MIDI</th>
-		<th>DIN MIDI</th>
-		<th>Notes</th>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/arduinoboy">Arduinoboy</a></td>
-		<td>$16-$22 (kit)</td>
-		<td>✕</td>
-		<td>✔</td>
-		<td>DIY kit only.</td>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/arduinoboy-lite">Arduinoboy Lite</a></td>
-		<td>$25</td>
-		<td>✕</td>
-		<td>✔ (out only)</td>
-		<td>Uses special fork of Arduinoboy code the improves midi out, but only does midi out.</td>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/teensyboy">Teensyboy</a></td>
-		<td>$33</td>
-		<td>✔</td>
-		<td>✕</td>
-		<td>It's tiny! About the size as a thumb drive.</td>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/teensyboypro">Teensyboy Pro</a></td>
-		<td>$45</td>
-		<td>✔</td>
-		<td>✔</td>
-		<td>Functionaly identical to Arduinoboy, but smaller. Mounting holes for installing into a case.</td>
-	</tr>
-</table>
+{% include arduinoboy_comparison.html %}
 
 It is important to understand that you're buying a kit. That means it's a PCB with unsoldered components. For assembly,  you'll need a soldering iron and decent soldering skills. All the components are through-hole, so it should be easy enough for beginners. That said, I take no responsibility for any damage you cause to your kit during assembly. **There is strictly no warranty whatsoever included with the kit. No returns or refunds will be accepted.**
 
