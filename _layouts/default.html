@@ -65,6 +65,15 @@
       }
 
       function addToCart(event) {
+        var options = document.getElementById('options-selection')
+        if (options) {
+          var el = document.getElementsByClassName('shopify-buy__option-select__select')[0]
+          el.selectedIndex = options.selectedIndex
+          var e = document.createEvent('HTMLEvents');
+          e.initEvent('change', true, false);
+          el.dispatchEvent(e);
+        }
+
         event.stopPropagation()
         document.getElementById('shopify-button').getElementsByTagName('button')[0].click()
       }
