@@ -22,7 +22,7 @@ product_id: 3932327215182
 	</div>
 </div>
 
-## ${{ page.price }}
+## ${{ page.price }}.00
 
 {% include shopify_markup.html %}
 

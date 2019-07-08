@@ -21,7 +21,7 @@ product_id: 3937977401422
 	</div>
 </div>
 
-## $45.00
+## ${{ page.price }}.00
 
 <table>
 <tr><td>Options</td></tr>

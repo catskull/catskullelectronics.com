@@ -18,6 +18,8 @@ pos: 1
 	</div>
 </div>
 
+## ${{ page.price }}.00
+
 <table>
 <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">

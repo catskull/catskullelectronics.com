@@ -21,7 +21,7 @@ product_id: 3937957969998
 	</div>
 </div>
 
-## $25.00
+## ${{ page.price }}.00
 
 {% include shopify_markup.html %}
 
