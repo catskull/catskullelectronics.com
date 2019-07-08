@@ -3,13 +3,13 @@ layout: default
 title: Arduinoboy
 description: Buy a Gameboy Arduinoboy kit for LSDJ starting at $16
 price: 16
-image: /public/gallery/1.jpg
+image: /public/images/aboy/1.jpg
 pos: 2
 ---
 # Arduinoboy Shield
 
 <div class="gallery">
-	<img src="{{ site.baseurl }}public/gallery/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
+	<img src="{{ site.baseurl }}public/images/aboy/1.jpg" alt="Arduinoboy front" id="gallery_image" onclick="cycle(1); return false;">
 	<p id="gallery_subtitle">Arduinoboy front</p>
 	<p id="gallery_pos_text">1/12</p>
 	<div id="gallery_nav">
@@ -64,4 +64,4 @@ You'll need a good link cable to use this. I have tested these and they seem to 
 
 By purchasing from me, you are agreeing to these terms and conditions.
 
-<script src="{{ site.baseurl }}public/js/scripts.js"></script>
+<script src="{{ site.baseurl }}public/js/aboygallery.js"></script>
