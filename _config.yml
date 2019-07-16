@@ -3,7 +3,7 @@ markdown:            kramdown
 highlighter:         rouge
 # host:                0.0.0.0
 plugins:
-  - jekyll-sitemap
+ - jekyll-sitemap
 
 # Permalinks
 #
@@ -21,8 +21,8 @@ baseurl:             /
 # About/contact
 author:
   name:              David DeGraw
-  url:               http://catskull.net
-  email:             bro@catskull.net
+  url:               https://catskullelectronics.com
+  email:             support@catskullelectronics.com
 
 # Custom vars
 version:             1.0.0

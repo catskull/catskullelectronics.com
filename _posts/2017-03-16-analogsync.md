@@ -5,6 +5,7 @@ description: An analog sync adapter for LSDJ and Nanoloop on the Nintendo Gamebo
 price: 10
 image: /public/images/analog/1.jpg
 pos: 4
+product_id: 3938052079694
 ---
 # Analog Sync Adapter
 
@@ -18,34 +19,20 @@ pos: 4
 	</div>
 </div>
 
-## $10
+## ${{ page.price }}.00
 
-<table>
-  <form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-  <input type="hidden" name="cmd" value="_s-xclick">
-  <input type="hidden" name="hosted_button_id" value="XX7SM3UNHZD2W">
-  </form>
-</table>
-
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
 
-Units ship within **5** business days.
-
-Shipping is flat rate $4 in the US. International is flate rate $15.
+{% include shipping_estimate.html %}
 
 This is a simple little analog (CV) sync adapter for use with LSDJ and Nanoloop on a Nintendo Gameboy. The 3.5mm jack can be used as either an input or an output, selectable with the on board switch.
 
-Due to varying sync standards, the Gameboy may or may not be able to sync with your gear. [2xAA](http://2xaa.fm/) created a [helpful reference table](https://docs.google.com/spreadsheets/d/1Zp8QNA-DvxcDrwfsfiOStrkqZFRB77vNtZBtJJFJ-xM/edit#gid=0). If you have data to add, please [contact me](mailto:bro@catskull.net).
+Due to varying sync standards, the Gameboy may or may not be able to sync with your gear. [2xAA](http://2xaa.fm/) created a [helpful reference table](https://docs.google.com/spreadsheets/d/1Zp8QNA-DvxcDrwfsfiOStrkqZFRB77vNtZBtJJFJ-xM/edit#gid=0). If you have data to add, please [contact me](mailto:support@catskullelectronics.com).
 
 This uses a GBA/GBC style link port. To use with an original brick Gameboy (DMG), you'll need a good dual ended link cable. I've used this one and can recommend it: [http://www.ebay.com/itm/400690419424](http://www.ebay.com/itm/400690419424)
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it's correct.
+{% include product_footer.md %}
 
-By purchasing from me, you are agreeing to these terms and conditions and acknowledging that you have read this page.
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 <script src="{{ site.baseurl }}public/js/analogsyncgallery.js"></script>

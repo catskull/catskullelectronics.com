@@ -7,6 +7,7 @@ image: /public/images/aboy_lite/2.JPG
 pos: 0.6
 new: false
 featured: false
+product_id: 3937957969998
 ---
 # Arduinoboy Lite
 
@@ -20,25 +21,15 @@ featured: false
 	</div>
 </div>
 
-## $25.00
+## ${{ page.price }}.00
 
-<form id="paypal" target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="9HVUU2S9CNU9A">
-<input type="hidden" name="currency_code" value="USD">
-</form>
-
-<div class="addToCart noselect" onclick="addToCart()">
-  Add to cart
-</div>
+{% include shopify_markup.html %}
 
 ## Details:
 
-Units ship within **10** business days.
+{% include shipping_estimate.html %}
 
-Shipping is flat rate $5 in the US. International shipping is flat rate $15.
-
-Arduinoboy Lite is a special fork of the arduinoboy project. It is designed to improve LSDJ's MIDI out mode in reliability and add features such as MIDI clock and on-the-fly channel switching.
+Arduinoboy Lite is a special fork of the arduinoboy project. It is designed to improve LSDJ's MIDI out mode in reliability and add features such as MIDI clock and on-the-fly channel switching. However, it **only does MIDI out** in LSDJ. If you want to use MIDI in or mGB, grabe the <a href="https://catskullelectronics.com/teensyboypro">Teensyboy Pro</a> instead!
 
 For a full list of differences, <a href="https://github.com/ledfyr/ab-midiout-lite">view the readme</a>.
 
@@ -46,50 +37,10 @@ Like all of my arduinoboy offerings, Arduinoboy Lite is fully compatible with al
 
 To use this product you need a copy of LSDJ and a flash cartridge capable of running it. This product is shipped fully assembled and tested.
 
-Here is a table that explains the difference between various Arduinoboy models:
-
-<table style="min-width:100%;">
-	<tr>
-		<th>Variant</th>
-		<th>Price</th>
-		<th>USB MIDI</th>
-		<th>DIN MIDI</th>
-		<th>Notes</th>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/arduinoboy">Arduinoboy</a></td>
-		<td>$16-$22 (kit)</td>
-		<td>✕</td>
-		<td>✔</td>
-		<td>DIY kit only.</td>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/arduinoboy-lite">Arduinoboy Lite</a></td>
-		<td>$25</td>
-		<td>✕</td>
-		<td>✔ (out only)</td>
-		<td>Uses special fork of Arduinoboy code the improves midi out, but only does midi out.</td>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/teensyboy">Teensyboy</a></td>
-		<td>$33</td>
-		<td>✔</td>
-		<td>✕</td>
-		<td>It's tiny! About the size as a thumb drive.</td>
-	</tr>
-	<tr>
-		<td><a href="https://catskullelectronics.com/teensyboypro">Teensyboy Pro</a></td>
-		<td>$45</td>
-		<td>✔</td>
-		<td>✔</td>
-		<td>Functionaly identical to Arduinoboy, but smaller. Mounting holes for installing into a case.</td>
-	</tr>
-</table>
+{% include arduinoboy_comparison.html %}
 
 Credits to trash80 for original Arduinoboy design and coding, and ledfyr for the aboy-midiout-lite software.
 
-I will ship to the address entered on the PayPal checkout page, so please double check to make sure it’s correct.
-
-By purchasing, you are acknowledging that you've read and understand this page as well as my [FAQ](/faq) page.
+{% include product_footer.md %}
 
 <script src="{{ site.baseurl }}public/js/aboylitegallery.js"></script>
