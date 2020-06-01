@@ -3,9 +3,10 @@ layout: default
 title: Arduinoboy
 description: Buy a Gameboy Arduinoboy kit for LSDJ starting at $16
 price: 16
-image: /public/images/aboy/1.jpg
+image: /images/aboy/1.jpg
 pos: 2
 product_id: 3938029011022
+category: electronics
 ---
 # Arduinoboy Shield
 

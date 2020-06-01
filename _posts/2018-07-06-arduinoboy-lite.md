@@ -3,11 +3,12 @@ layout: default
 title: Arduinoboy Lite
 description: A USB MIDI teensy microcontroller arduinoboy for use with the Nintendo Gameboy to make chiptunes and sync with LSDJ and Nanoloop
 price: 25
-image: /public/images/aboy_lite/2.JPG
+image: /images/aboy_lite/2.JPG
 pos: 0.6
 new: false
 featured: false
 product_id: 3937957969998
+category: electronics
 ---
 # Arduinoboy Lite
 

@@ -3,11 +3,12 @@ layout: default
 title: Teensyboy Pro
 description: A USB MIDI teensy microcontroller arduinoboy for use with the Nintendo Gameboy to make chiptunes and sync with LSDJ and Nanoloop
 price: 45
-image: /public/images/teensyboy_pro/1.JPG
+image: /images/teensyboy_pro/1.JPG
 pos: 0.7
 new: false
 featured: false
 product_id: 3937977401422
+category: electronics
 ---
 # Teensyboy Pro
 

@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: records
 redirect_from: "/404"
 ---

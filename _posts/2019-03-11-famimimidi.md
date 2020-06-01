@@ -3,12 +3,13 @@ layout: default
 title: Famimimidi
 description: MIDI Interface for the Nintendo Entertainment System
 price: 200
-image: /public/images/famimimidi/1.jpg
+image: /images/famimimidi/1.jpg
 pos: 0.3
 new: true
 featured: false
 hidden: false
 product_id: 3932327215182
+category: electronics
 ---
 # Famimimidi
 

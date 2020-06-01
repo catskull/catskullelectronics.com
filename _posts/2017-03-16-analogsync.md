@@ -3,9 +3,10 @@ layout: default
 title: Analog Sync Adapter
 description: An analog sync adapter for LSDJ and Nanoloop on the Nintendo Gameboy to sync with korg volca and other analog sync hardware.
 price: 10
-image: /public/images/analog/1.jpg
+image: /images/analog/1.jpg
 pos: 4
 product_id: 3938052079694
+category: electronics
 ---
 # Analog Sync Adapter
 

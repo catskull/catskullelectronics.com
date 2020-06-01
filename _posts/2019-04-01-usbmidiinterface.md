@@ -3,12 +3,13 @@ layout: default
 title: USB MIDI Interface
 description: A 3x USB to DIN MIDI interface
 price: 80
-image: /public/images/usbmidiinterface/1.jpg
+image: /images/usbmidiinterface/1.jpg
 pos: 0.2
 new: true
 featured: true
 hidden: false
 product_id: 3931794145358
+category: electronics
 ---
 # USB MIDI Interface
 
