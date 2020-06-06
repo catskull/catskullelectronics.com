@@ -89,14 +89,14 @@ img {
 }
 
 @font-face {
-    font-family: 'munro';
+    font-family: 'ds-bios';
     src: url('../fonts/Nintendo-DS-BIOS.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
-.munro {
-  font-family: 'munro';
+.ds-bios {
+  font-family: 'ds-bios';
 }
 
 .item {
@@ -109,10 +109,39 @@ img {
   margin: 10px;
 }
 
-.album-artist {
+.header {
   font-size: 35px;
 }
 
-.album-title {
+.subheader {
   font-size: 25px;
+}
+
+.menu-item {
+  margin: 20px;
+}
+
+.menu-content {
+  display: none;
+  position: absolute;
+  background-color: #c0c0c0;
+  box-shadow:
+    -8px 8px 0px #2319fa,
+    -4px 4px 0px #2319fa,
+    30px 30px 0px rgba(35, 25, 248, 0.3);
+  min-width: 91px;
+  z-index: 1;
+}
+
+#dropdown:hover .menu-content {
+  display: block;
+}
+
+.root-menu {
+  margin: 0;
+  padding: 0 10px 10px 10px;
+}
+
+ul {
+  list-style-type: none;
 }
