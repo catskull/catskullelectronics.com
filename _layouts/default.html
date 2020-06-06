@@ -33,30 +33,32 @@
   <div class="flex-container">
 
     {% for post in site.categories.electronics %}
-    <a href="{{ post.external_url }}" target="_blank" rel="noopener">
-      <div class="box item">
-        <picture>
-          <!-- <source type="image/webp" srcset="{{ post.image }}.webp"> -->
-          <img src="{{ post.image }}" alt="{{ post.artist }} - {{ post.title }} album art" />
-        </picture>
-        {% assign today_date = 'now' | date: '%s' %}
-        {% assign release_date = post.date | date: '%s' %}
-        {% assign diffSeconds = today_date | minus: release_date %}
-        {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
-        {% if diffDays < 90  %}
-        <div class="new"></div>
-        {% endif %}
-        <div class="munro description">
-          <div class="album-artist">
-            {{ post.title }}
-          </div>
-          <br>
-          <div class="album-title">
-            {{ post.price }}
+      {% unless post.hidden %}
+      <a href="{{ post.external_url }}" target="_blank" rel="noopener">
+        <div class="box item">
+          <picture>
+            <!-- <source type="image/webp" srcset="{{ post.image }}.webp"> -->
+            <img src="{{ post.image }}" alt="{{ post.artist }} - {{ post.title }} album art" />
+          </picture>
+          {% assign today_date = 'now' | date: '%s' %}
+          {% assign release_date = post.date | date: '%s' %}
+          {% assign diffSeconds = today_date | minus: release_date %}
+          {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 %}
+          {% if diffDays < 90  %}
+          <div class="new"></div>
+          {% endif %}
+          <div class="munro description">
+            <div class="album-artist">
+              {{ post.title }}
+            </div>
+            <br>
+            <div class="album-title">
+              {{ post.price }}
+            </div>
           </div>
         </div>
-      </div>
-    </a>
+      </a>
+      {% endunless %}
     {% endfor %}
 
   </div>
